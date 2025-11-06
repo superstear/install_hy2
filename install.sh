@@ -34,7 +34,7 @@ setup_variables() {
 # 下载应用程序
 download_application() {
     echo "下载应用程序..."
-    wget -O $APP_NAME 'https://github.com/apernet/hysteria/releases/download/app%2Fv2.6.2/hysteria-linux-amd64'
+    wget -O $APP_NAME 'https://github.com/apernet/hysteria/releases/download/app%2Fv2.6.5/hysteria-linux-amd64'
     if [ $? -ne 0 ]; then
         echo "错误: 下载应用程序失败"
         exit 1
